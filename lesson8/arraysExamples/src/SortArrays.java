@@ -8,7 +8,7 @@ public class SortArrays {
 
         char [] charArray = {'c', 'd', 'a', 'e', 'A', 'b', 'E', '@', '1', '0'};
 
-        String [] stringArray = {"aaa", "abb", "aba", "cds", "A", "a", "aaaa", "bbbb"};
+        String [] stringArray = {"aaa", "abb", "aba", "cds", "A", "a", "e", "aaaa", "bbbb"};
 
         Arrays.sort(intArray);
         System.out.println(Arrays.toString(intArray));

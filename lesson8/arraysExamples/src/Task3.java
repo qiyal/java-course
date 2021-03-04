@@ -14,6 +14,14 @@ public class Task3 {
 
         for (int i = 0; i < n - 1; i++) {
             ansArr[i + 1] = arr[i];
+            // index  0  1  2  3  4
+            // arr = {1, 2, 3, 4, 5}
+
+            //index      0  1  2  3  4
+            // ansArr = {5, 1, 2, 3, 4}
+
+            // i = 4
+            // i + 1 = 5
         }
         ansArr[0] = arr[arr.length - 1];
 
