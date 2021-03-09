@@ -4,7 +4,9 @@ public class Array2D {
         //index         0  1  3  4
         int [] arr1D = {1, 2, 3, 4};
 
+        int [][] arr = {{}, {}, {}};
 
+        // 2d array is array which contains arrays
         int [][] arr2D = {
                 //0  1  2
                  {1, 2, 3},    //index - 0
