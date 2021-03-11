@@ -20,7 +20,7 @@ public class Task2 {
                     boolean ans = true;
 
                     if (i > 0 && chArr[i - 1][j] != '.') {
-                        ans = false;
+                        ans = false; 
                     }
 
                     if (i != n - 1 && chArr[i + 1][j] != '.') {

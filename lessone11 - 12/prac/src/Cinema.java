@@ -15,7 +15,7 @@ public class Cinema {
 
         for(int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                places[i][j] = r.nextInt(2);
+                places[i][j] = r.nextInt(2); // 0, 1
             }
         }
 
